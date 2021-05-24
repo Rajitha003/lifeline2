@@ -19,5 +19,6 @@ from lifeapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('life',views.life, name='life')
+    path('life',views.life, name='life'),
+    path('hello',views.hello, name='hello')
 ]

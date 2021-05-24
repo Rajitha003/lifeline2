@@ -88,3 +88,6 @@ def life(request):
         session.quit()
         print('Mail Sent')
     return render(request, 'index.html')
+
+def hello(request):
+    pass
